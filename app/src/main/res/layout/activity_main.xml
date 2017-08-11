@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="kr.co.tjeit.algorithmtest.MainActivity">
+
+    <Button
+        android:id="@+id/firstQuestionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3의 배수와 5의 배수의 총합구하기"/>
+    <Button
+        android:id="@+id/secondQuestionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="별찍기"/>
+    <Button
+        android:id="@+id/thirdQuestionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="구구단 2~9단 출력"/>
+    <Button
+        android:id="@+id/fourthQuestionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="좌표 표현하기"/>
+    <Button
+        android:id="@+id/fifthQuestionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="채팅형 숫자 야구 게임"/>
+
+    <Button
+        android:id="@+id/sixthQuestionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로또 시뮬레이터"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="kr.co.tjeit.algorithmtest.Test03Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:tag="2"
+                android:id="@+id/guguTwoBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2단"/>
+            <Button
+                android:tag="3"
+                android:id="@+id/guguThreeBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="3단"/>
+            <Button
+                android:tag="4"
+                android:id="@+id/guguFourBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="4단"/>
+            <Button
+                android:tag="5"
+                android:id="@+id/guguFiveBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5단"/>
+            <Button
+                android:tag="6"
+                android:id="@+id/guguSixBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="6단"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:tag="7"
+                android:id="@+id/guguSevenBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="7단"/>
+            <Button
+                android:tag="8"
+                android:id="@+id/guguEightBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="8단"/>
+            <Button
+                android:tag="9"
+                android:id="@+id/guguNineBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="9단"/>
+            <Button
+                android:tag="10"
+                android:id="@+id/guguAllBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="전체"/>
+
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/guguList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
